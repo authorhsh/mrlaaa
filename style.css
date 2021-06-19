@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    height: 100vh;
+width: 100%;
+background: url(Mountains.jpg) ;
+background-size: cover;
+height:100vh ;
+}
+.navbar{
+    height: 80px;
+    width:100% ;
+    background: rgba(7, 7, 7, 0.651);
+}
+
+.navbar ul{
+    float:right;
+    margin-right:24px ;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px ;
+}
+a{
+    text-decoration:none ;
+    color: white;
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    padding: 6px 13px;
+    transition: 4s;
+}
+a:visted{color:red}
+	a:link{color:blue}
+	a:active{background:red; border-radius: 2px; text-transform:lowercase}
+    a:hover{background:red; text-transform:uppercase; 
+        border-radius: 2px;}
+    h1:hover{ text-transform:uppercase; 
+        border-radius: 1px;
+    }
+    
+    .wrapper .center{
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        font-family: sans-serif;
+        user-select: none;
+    }
+    .navbar h1{
+        color:rgb(245, 243, 243);
+        font-size: 25px;
+        font-weight: bold;
+        width: 400px;
+        text-align: left;
+        display: inline-block;
+        line-height: 80px ;
+        margin-left:0px ;
+        background:rgb(161, 31, 31);
+    }
+    .center .buttons{
+        margin: 35px 280px;
+    }
+    p{
+	
+        font-style:Italic;
+        font-variant:large-caps;
+        font-weight:5px;
+        font-size:0.6cm;
+        font-family:Helventica;
+        }
+        p:first-letter{font-size: 200%}
+        p:first-line{text-transform:uppercase}
+        
